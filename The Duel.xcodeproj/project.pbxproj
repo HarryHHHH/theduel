@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		20DB2B2A1A637CD3004DE243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DB2B291A637CD3004DE243 /* main.m */; };
 		20DB2B2D1A637CD3004DE243 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DB2B2C1A637CD3004DE243 /* AppDelegate.m */; };
-		20DB2B301A637CD3004DE243 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DB2B2F1A637CD3004DE243 /* FirstViewController.m */; };
-		20DB2B331A637CD3004DE243 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DB2B321A637CD3004DE243 /* SecondViewController.m */; };
 		20DB2B361A637CD3004DE243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20DB2B341A637CD3004DE243 /* Main.storyboard */; };
 		20DB2B381A637CD3004DE243 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20DB2B371A637CD3004DE243 /* Images.xcassets */; };
 		20DB2B3B1A637CD3004DE243 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20DB2B391A637CD3004DE243 /* LaunchScreen.xib */; };
 		20DB2B471A637CD3004DE243 /* The_DuelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DB2B461A637CD3004DE243 /* The_DuelTests.m */; };
+		20DB2B521A63809C004DE243 /* DuelSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DB2B511A63809C004DE243 /* DuelSlideViewController.swift */; };
+		20DB2B541A63811A004DE243 /* DuelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DB2B531A63811A004DE243 /* DuelListViewController.swift */; };
+		20DB2B561A63813F004DE243 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DB2B551A63813F004DE243 /* UserViewController.swift */; };
+		20DB2B581A638181004DE243 /* NewDuelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DB2B571A638181004DE243 /* NewDuelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +35,17 @@
 		20DB2B291A637CD3004DE243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20DB2B2B1A637CD3004DE243 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20DB2B2C1A637CD3004DE243 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		20DB2B2E1A637CD3004DE243 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		20DB2B2F1A637CD3004DE243 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		20DB2B311A637CD3004DE243 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		20DB2B321A637CD3004DE243 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		20DB2B351A637CD3004DE243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20DB2B371A637CD3004DE243 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		20DB2B3A1A637CD3004DE243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		20DB2B401A637CD3004DE243 /* The DuelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The DuelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DB2B451A637CD3004DE243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20DB2B461A637CD3004DE243 /* The_DuelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_DuelTests.m; sourceTree = "<group>"; };
+		20DB2B501A63809C004DE243 /* The Duel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The Duel-Bridging-Header.h"; sourceTree = "<group>"; };
+		20DB2B511A63809C004DE243 /* DuelSlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuelSlideViewController.swift; sourceTree = "<group>"; };
+		20DB2B531A63811A004DE243 /* DuelListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuelListViewController.swift; sourceTree = "<group>"; };
+		20DB2B551A63813F004DE243 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		20DB2B571A638181004DE243 /* NewDuelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDuelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,14 +89,15 @@
 			children = (
 				20DB2B2B1A637CD3004DE243 /* AppDelegate.h */,
 				20DB2B2C1A637CD3004DE243 /* AppDelegate.m */,
-				20DB2B2E1A637CD3004DE243 /* FirstViewController.h */,
-				20DB2B2F1A637CD3004DE243 /* FirstViewController.m */,
-				20DB2B311A637CD3004DE243 /* SecondViewController.h */,
-				20DB2B321A637CD3004DE243 /* SecondViewController.m */,
 				20DB2B341A637CD3004DE243 /* Main.storyboard */,
 				20DB2B371A637CD3004DE243 /* Images.xcassets */,
 				20DB2B391A637CD3004DE243 /* LaunchScreen.xib */,
 				20DB2B271A637CD3004DE243 /* Supporting Files */,
+				20DB2B511A63809C004DE243 /* DuelSlideViewController.swift */,
+				20DB2B501A63809C004DE243 /* The Duel-Bridging-Header.h */,
+				20DB2B531A63811A004DE243 /* DuelListViewController.swift */,
+				20DB2B551A63813F004DE243 /* UserViewController.swift */,
+				20DB2B571A638181004DE243 /* NewDuelViewController.swift */,
 			);
 			path = "The Duel";
 			sourceTree = "<group>";
@@ -224,9 +228,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20DB2B331A637CD3004DE243 /* SecondViewController.m in Sources */,
+				20DB2B541A63811A004DE243 /* DuelListViewController.swift in Sources */,
+				20DB2B561A63813F004DE243 /* UserViewController.swift in Sources */,
+				20DB2B521A63809C004DE243 /* DuelSlideViewController.swift in Sources */,
+				20DB2B581A638181004DE243 /* NewDuelViewController.swift in Sources */,
 				20DB2B2D1A637CD3004DE243 /* AppDelegate.m in Sources */,
-				20DB2B301A637CD3004DE243 /* FirstViewController.m in Sources */,
 				20DB2B2A1A637CD3004DE243 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,9 +355,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "The Duel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "The Duel/The Duel-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -359,9 +368,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "The Duel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "The Duel/The Duel-Bridging-Header.h";
 			};
 			name = Release;
 		};
